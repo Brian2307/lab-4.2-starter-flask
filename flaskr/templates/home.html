@@ -1,0 +1,13 @@
+{% extends "main.html" %}
+
+{% block page_name %}
+Home page
+{% endblock %}
+
+{% block content %}
+<h1>Welcome to the Wiki</h1>
+<p>This wiki contains different pages with useful information.</p>
+<img src="{{ url_for('static', filename='img/wiki-img.jpeg') }}" class="home-image">
+{% endblock %}
+
+

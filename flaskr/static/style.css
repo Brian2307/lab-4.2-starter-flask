@@ -19,3 +19,37 @@ p {
     margin-left: 15px;
     background-color: lightblue;
 }
+
+/* 1. Home page title and image styles */
+h1 {
+    font-size: 45px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.home-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* 2. Pages page list styles */
+.pages-list {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin: 20px 15px;
+}
+
+.pages-list a {
+    color: #2c65d1;
+    font-size: 22px;
+}
+
+/* 3. About page image styles */
+.about-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
